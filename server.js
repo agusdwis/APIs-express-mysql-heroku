@@ -3,13 +3,13 @@ const bodyParser = require("body-parser");
 
 const app = express();
 
-// parse requests of content-type - application/json
-app.use(bodyParser.json());
+// content-type - application/json
+app.use(express.json());
 
-// parse requests of content-type - application/x-www-form-urlencoded
-app.use(bodyParser.urlencoded({ extended: true }));
+// content-type - application/x-www-form-urlencoded
+app.use(express.urlencoded({ extended: true }));
 
-// simple route
+// home test
 app.get("/", (req, res) => {
   res.json({ message: "Greeting - agusdwis" });
 });
