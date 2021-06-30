@@ -1,6 +1,6 @@
 module.exports = {
-  HOST: "0.0.0.0",
-  USER: "root",
-  PASSWORD: "49035mysql",
-  DB: "db_learn1",
+  HOST: "us-cdbr-east-04.cleardb.com",
+  USER: "b7c0a940532ce4",
+  PASSWORD: "515b7c85",
+  DB: "heroku_13b4f182d38ee60",
 };
